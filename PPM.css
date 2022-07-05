@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@font-face {
+    font-family:'Gilroy';
+    src: url('gilroy/Gilroy-Regular.ttf');
+    
+}
+@font-face {
+    font-family:'Gilroy-bold';
+    src: url('Gilroy-Bold.ttf');    
+}
+
+@font-face {
+    font-family:'Gilroy-semibold';
+    src: url('gilroy/Gilroy-SemiBold.ttf');    
+}
+
+@font-face {
+    font-family:'Gilroy-medium';
+    src: url('gilroy/Gilroy-Medium.ttf');    
+}
+
+
+
+
+body {
+    width: inherit;
+    background-color: #ffffff;
+}
+
+.logo {
+    margin-left: 112px;
+}
+
+.logoimg{
+    height: 32px;
+    width: 32px;
+}
+
+.cont {
+    text-align: center; 
+}
+
+.line {
+    margin-top:0;
+    height: 1px;
+    width: 100%;
+    background: #D6DBDB;
+}
+
+.profile-info{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 36px;
+    padding-bottom: 32px;
+    background: #F2F8F5;
+    border-bottom: 1px solid #F1EAE4;
+    display: flex;
+    gap: 12px;
+}
+
+.profile-info > div > .h{
+    font-family: 'Gilroy-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+}
+
+.profile-info > div > .h > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #788787;
+}
+
+.profile-info > div > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    color: #384747;
+    padding-top: 16px;
+
+}
+
+.profile-info > div > .align-btn{
+    display: flex;
+    padding-top: 16px;
+    gap: 12px;
+}
+
+.port{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 16px;
+    gap: 8px;
+    border-radius: 12px;
+    color: #ffffff;
+    background: black;
+}
+
+.git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 16px;
+    gap: 8px;
+    border-radius: 12px;
+      
+}
+
+.competence-tab{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 155%;
+    color: #384747;
+    padding-left: 28%;
+    padding-top: 36px;
+}
+
+.tab-cont{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tech-skill{
+    padding: 48px 28% 0 28%;
+}
+
+.tech-skill > .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+}
+
+.tech-skill > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    color: #788787;
+}
+
+.checked {
+    color:black;
+}
+
+table{
+    width: 100%;
+    
+}
+
+.th{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 155%;
+    color: #788787;
+}
+
+td > span{
+    color:#ffffff;
+}
+
+td{
+    padding-top: 16px;
+}
+
+.td1{
+    padding-right: 180px;
+}
+
+tr{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.skill-sets{
+    background: #F4F8FC;
+    border-radius: 16px;
+    padding: 18px 24px 18px 24px;
+    margin-top: 48px;
+    margin-bottom: 96px;
+
+}
+
+.skill-sets .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 8px;
+    
+      
+}
+
+.grid{
+    border-bottom: 1.2px solid #D6DBDB;
+    border-right: 1.2px solid #D6DBDB;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #384747;
+    border-radius: 4px;
+    margin-top: 8px;
+    
+}
+
+.snr-matrx{
+    padding: 48px 28% 48px 28%;
+}
+
+.snr-matrx > .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+}
+
+.snr-matrx > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    color: #788787;
+    padding-bottom: 32px;
+}
+
+.seniority-propel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.seniority-propel > div{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.seniority-propel > div > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: underline;
+}
+.skills-list{
+    padding: 24px 10% 0 10%;
+    
+}
+
+.node{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'zero' on;
+    padding: 18px 0 8px 0;
+}
+
+.snr-matrx{
+    padding: 48px 28% 48px 28%;
+}
+
+.exp{
+    padding: 48px 28% 48px 28%;
+    
+}
+
+.exp > .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+}
+
+.exp > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    color: #788787;
+    padding-bottom: 32px;
+}
+
+.experience{
+    padding: 16px 0 0 0;
+}
+
+.experience .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+}
+
+.experience .p > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: black;
+}
+
+.experience > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #788787;
+    text-decoration: none;
+
+}
+
+li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #384747;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 10px;
+    background-color: white;
+    margin: 2px;
+    border-radius: 12px 12px 12px 12px;  
+}
+
+.project-grid{
+    border: 1.2px solid #F0F1F1;
+    border-radius: 16px;
+    padding-bottom: 24px;
+}
+
+.project-grid > img{
+    border-radius: 12px 12px 0 0;
+}
+
+.project-grid > .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    margin-left: 12px;
+}
+
+.project-grid > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.08em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #788787;
+    margin-left: 12px;
+}
+
+.sup{
+    padding: 48px 20% 48px 20%;
+}
+
+.sup > img{
+    width: 100%;
+}
